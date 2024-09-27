@@ -1,16 +1,34 @@
-# lastshape
+# Shape Detector App
 
-A new Flutter project.
+## Overview
+
+The **Shape Detector App** is a mobile application built using Flutter that allows users to upload images and detect geometric shapes such as triangles, squares, rectangles, and circles. The app uses the OpenCV library for image processing and shape detection.
+
+## Features
+
+- Upload images from the gallery.
+- Detects basic shapes: Triangle, Square, Rectangle, and Circle.
+- Displays the detected shape below the image in **red** color.
+- User-friendly interface for quick image analysis.
+
+## Technologies Used
+
+- **Flutter**: Cross-platform mobile app development framework.
+- **OpenCV**: Image processing library for shape detection.
+- **image_picker**: Flutter plugin to allow users to pick images from their gallery.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Before running the application, make sure you have the following installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- OpenCV integration with your Flutter project using `opencv_dart` or another compatible package.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation Steps
+
+1. **Clone the Repository**
+
+   ```bash
+  
